@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/twbs/bootstrap-sass"
   s.license  = 'MIT'
 
-  s.add_runtime_dependency 'sass', '~> 3.2'
+  s.add_runtime_dependency 'sass', '>= 3.2'
 
   # Testing dependencies
   s.add_development_dependency 'test-unit', '~> 2.5.5'
